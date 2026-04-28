@@ -33,7 +33,7 @@ spec:
     stages {
         stage('1. Kodu Çek') {
             steps {
-                git branch: 'main', url: 'https://github.com/delavenka/jenkins/examples.git'
+                git branch: 'main', url: 'https://github.com/delavenka/jenkins-examples.git'
             }
         }
 
